@@ -8,3 +8,6 @@ theme:
     primary: pink
 plugins:
   - search
+extra:
+  version:
+    provider: mike
