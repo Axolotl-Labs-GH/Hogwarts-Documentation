@@ -1,0 +1,7 @@
+site_name: Hogwarts Documentation
+site_url: https://documentation.hogwartsnetwork.co.uk
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: pink
