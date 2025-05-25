@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Home
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! danger "Not Complete Documentation"
 
-## Commands
+    This site provides documentation into the configuration and setup of my home lab called "Hogwarts" it is free to browse for ideas and to see how I have configured the network as a whole but I don't recommend using it as a single source of truth for any of the hardware, software or services that I have used
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Welcome to Hogwarts Documentation
 
-## Project layout
+The Hogwarts Network is the name of my Home Lab, it consists of several servers, routers, other network devices and services and is designed as an always on system with the "aim" of a 99% UpTime thanks to clustering and redundancy.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The network is completely Opensource and any services used to host, manage or configure it are fully hosted within, except for this documentation for added resiliency and disaster recovery.
