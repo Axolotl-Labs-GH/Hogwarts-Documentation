@@ -76,9 +76,9 @@ The Network uses a complete /24 address divided into individual /28 subnets prov
 
 ``` mermaid
 graph LR
-  A[ISP Connection] --> B[rte-1];
-  B ---> |Seperate Network| C[rte-1 - Axolotl Net];
-  B --> D[10 Port PoE Switch];
+  A[ISP Connection] --> |g/e-0| B[rte-1];
+  B ---> |g/e-4| C[rte-1 - Axolotl Network];
+  B --> |g/e-1| D[sw-1];
   D --> E[srv-lo-1];
   D --> F[srv-lo-2];
   D --> G[srv-pi-1];
@@ -88,4 +88,3 @@ graph LR
 ###### Device Pages
 
 - [Hogwarts Primary Router](./hardware/Networking/rte-1.md)
-- [Hogwarts Secondary Router](./hardware/Networking/rte-2.md)
