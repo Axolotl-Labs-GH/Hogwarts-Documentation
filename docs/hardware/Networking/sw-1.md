@@ -1,20 +1,20 @@
 ---
-title: rte-1 - Router 1
+title: sw-1 - Switch 1
 ---
 
-# rte-1 - Router 1
+# sw-1 - Switch 1
 
 === "Front View"
 
     <figure markdown="span">
-        ![rte-1-front](../../assets/rte-1-front.png){ loading=lazy, width="600" }
+        ![sw-1-front](../../assets/sw-1-front.png){ loading=lazy, width="700" }
         <figcaption></figcaption>
     </figure>
 
 === "Rear View"
 
     <figure markdown="span">
-        ![rte-1-rear](../../assets/rte-1-rear.png){ loading=lazy, width="600" }
+        ![sw-1-rear](../../assets/sw-1-rear.png){ loading=lazy, width="700" }
         <figcaption></figcaption>
     </figure>
 
